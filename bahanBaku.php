@@ -17,6 +17,26 @@
     <title>Bahan Baku</title>
 </head>
 <body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="/eaiFix/index.php">
+            <img src="yukcetak-1.png" alt="logo" style="width:150px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav" style="margin-left: 65%;">
+            <li class="nav-item">
+            <a class="nav-link" href="/eaiFix/bahanBaku.php">Bahan Baku</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/eaiFix/supplier.php">Supplier</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/eaiFix/pegawai.php">Pegawai</a>
+            </li>
+        </ul>
+    </nav>
+
 <center><h2 style="margin-top: 5%;">Data Bahan Baku</h2></center>
 
     <div style="padding:5%">

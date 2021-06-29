@@ -1,3 +1,52 @@
-<?php 
-echo ("heloo");
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Index</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="/eaiFix/index.php">
+            <img src="yukcetak-1.png" alt="logo" style="width:150px;">
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav" style="margin-left: 65%;">
+            <li class="nav-item">
+            <a class="nav-link" href="/eaiFix/bahanBaku.php">Bahan Baku</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/eaiFix/supplier.php">Supplier</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/eaiFix/pegawai.php">Pegawai</a>
+            </li>
+        </ul>
+    </nav>
+
+    <center><h2 style="margin-top: 5%;">PT YukCetak</h2></center>
+
+    <div style="padding:5%">
+        <div style="padding-left:20%; padding-right:20%;">
+        <h2>Kami adalah spesialis dan telah berpengalaman dalam pembuatan cetak ID Card, member card / kartu anggota / KTA, kartu pelajar, kartu pasien, kartu magnetik, kartu emboss, kartu transparan, tali id card / lanyard, ID card holder / case / yoyo dengan hasil yang cepat, berkualitas, murah dan bergaransi</h2>
+        </div>
+
+        <center><div style="margin-top: 10%">
+            <img style="width: 70%" src="depan-gedung.jpg" alt="">
+        </div></center>
+
+        <div style="margin-top: 10%">
+            <h5 style="text-align: center;">© 2021 Yukcetak - PT Yukcetak Indonesia</h5>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>
+
