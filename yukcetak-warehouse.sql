@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 29 Jun 2021 pada 03.28
--- Versi server: 10.4.14-MariaDB
--- Versi PHP: 7.4.10
+-- Generation Time: Jun 29, 2021 at 10:25 AM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `bahan_baku`
+-- Table structure for table `bahan_baku`
 --
 
 CREATE TABLE `bahan_baku` (
@@ -34,10 +34,19 @@ CREATE TABLE `bahan_baku` (
   `harga_bahanBaku` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `bahan_baku`
+--
+
+INSERT INTO `bahan_baku` (`id_bahanBaku`, `nama_bahanBaku`, `stock_bahanBaku`, `harga_bahanBaku`) VALUES
+(3, 'c', 1, 2),
+(4, 'd', 2, 5),
+(5, 'e', 3, 4);
+
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `pegawai`
+-- Table structure for table `pegawai`
 --
 
 CREATE TABLE `pegawai` (
@@ -48,7 +57,7 @@ CREATE TABLE `pegawai` (
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `supplier`
+-- Table structure for table `supplier`
 --
 
 CREATE TABLE `supplier` (
@@ -62,22 +71,32 @@ CREATE TABLE `supplier` (
 --
 
 --
--- Indeks untuk tabel `bahan_baku`
+-- Indexes for table `bahan_baku`
 --
 ALTER TABLE `bahan_baku`
   ADD PRIMARY KEY (`id_bahanBaku`);
 
 --
--- Indeks untuk tabel `pegawai`
+-- Indexes for table `pegawai`
 --
 ALTER TABLE `pegawai`
   ADD PRIMARY KEY (`id_pegawai`);
 
 --
--- Indeks untuk tabel `supplier`
+-- Indexes for table `supplier`
 --
 ALTER TABLE `supplier`
   ADD PRIMARY KEY (`id_supplier`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `bahan_baku`
+--
+ALTER TABLE `bahan_baku`
+  MODIFY `id_bahanBaku` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
