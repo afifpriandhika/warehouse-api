@@ -5,4 +5,5 @@
     $dbname = "YukCetak-Warehouse";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
+
 ?>
